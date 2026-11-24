@@ -15,7 +15,7 @@ def read_profile_file(file_path):
 
             if not line:
                 continue
-
+            # split input with delimeter |
             fields = line.split("|")
 
             # Remove only the leading empty field

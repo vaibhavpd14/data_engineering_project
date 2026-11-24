@@ -173,6 +173,7 @@ def run_pipeline():
 
     else:
         print("\nNo records available for joining.")
+    #return member_df, redemption_df
 
     print("\n========== PIPELINE COMPLETED ==========\n")
 
